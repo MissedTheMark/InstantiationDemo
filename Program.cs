@@ -43,7 +43,6 @@ namespace InstantiationDemo
 
 			Console.WriteLine(delegateFromEmittingIL("Hey, we did this the hard way!").Value);
 
-
 			//****** Compiled expression ******
 			var parameter = Expression.Parameter(typeof(string));
 			var expression = Expression.New(ctorInfo, parameter);
